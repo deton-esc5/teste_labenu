@@ -1,0 +1,131 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial';
+    color: white;
+    box-sizing: border-box;
+}
+
+    .container {
+      display: flex;
+       flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: stretch;
+      align-items: center;
+      align-content: stretch;
+      position: relative;
+    }
+          
+    
+    header {
+      background-color: #cd4d00;
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+      display: inline-block;
+      width: 100vw;
+      position: relative;  
+    }
+    
+    header h1 {
+      margin: 0px;
+    }
+    
+    main {
+      background-color: #595f96;
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+      display: inline-block;
+      width: 100vw;
+      position: relative;
+    }
+    
+    footer {
+      background-color: #d1d3d4;
+      margin: 0px;
+      padding: 0px;
+      display: block;
+      width: 100vw;
+      align-self: flex-end;
+
+    }
+    
+    .logo {
+      display: block;
+      margin: auto;
+      padding:50px;
+    }
+    
+    .logo img{
+      max-width: 370px;
+    }
+    
+    .conteudo {
+        font-style: oblique;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+ 
+    .box1 {
+      background-color: #94c47d;
+      text-align: center;
+      padding: 10px 20px;
+      margin: 20px;
+    }
+    
+    .box2 {
+      background-color:#e06666;
+      text-align: center;
+      padding: 10px 20px;
+      margin: 20px;
+    }
+    
+    .box3 {
+      background-color: #6d9eeb;
+      text-align: center;
+      padding: 10px 20px;
+      margin: 20px;
+    }
+    
+    .text-turmas {
+      font-style: oblique;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 8px;
+      text-align: right;
+      padding-right: 20px;
+    }
+
+    .form-contato {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 40px;
+    }
+
+    .form-contato form input {
+        width: 300px;
+        height: 30px;
+        color: darkgray;
+        margin: 0px;
+        font-weight: bold;  
+    }
+
+    .form-contato button {
+        background-color: #cd4d00;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        border: solid 1px darkgray;
+        margin: 0px;
+        float: right;
+    }
