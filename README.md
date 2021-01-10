@@ -1,5 +1,5 @@
 # teste_labenu
-Teste para a bolsa do Curso de Web Fullstack da Labenu que O Boticário está oferecendo
+Teste para a bolsa do Curso de Web Fullstack da Labenu que O Boticário ofereceu.
 
 INSTRUÇÕES PARA O TESTE
 
